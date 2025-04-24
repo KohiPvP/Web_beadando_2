@@ -47,3 +47,18 @@ body {
     transform: scale(1.03);
     transition: transform 0.3s ease-in-out;
 }
+
+.navbar .nav-item .nav-link.active {
+    background-color: #218838;
+    /* Zöld háttérszín */
+    color: white;
+    /* Fehér szöveg */
+    border-radius: 5px;
+    /* Lekerekített sarkok */
+}
+
+.navbar .nav-item .nav-link.active:hover {
+    background-color: #218838;
+    /* Sötétebb zöld szín a hover effektushoz */
+    color: white;
+}
