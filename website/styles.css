@@ -58,3 +58,21 @@ body {
     background-color: #218838;
     color: white;
 }
+
+@media (max-width: 767px) {
+    .team-section .row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .team-section .col-md-4 {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .team-section .team-member {
+      text-align: center;
+    }
+  }
