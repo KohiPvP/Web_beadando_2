@@ -76,3 +76,30 @@ body {
       text-align: center;
     }
   }
+
+  .hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .lead {
+    font-size: 1.25rem;
+  }
+  
+  .contact-section {
+    padding: 40px 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
