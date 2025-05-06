@@ -23,6 +23,12 @@ body {
     text-shadow: 2px 2px 5px #000;
 }
 
+.mainheader {
+    background-color: #4caf4f9c;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
 .hero h1 {
     font-size: 3rem;
 }
@@ -102,4 +108,6 @@ body {
     text-align: center;
     padding: 20px 0;
   }
-  
+  .text-danger{
+    font-weight: bolder;
+  }
